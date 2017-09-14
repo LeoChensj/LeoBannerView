@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/LeoChensj/LeoBannerView"
   s.license      = "MIT"
   s.author       = { "LeoChen" => "LeoChensj@163.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/LeoChensj/LeoBannerView.git", :tag => "#{s.version}" }
   s.source_files = "LeoBannerView/*.{h,m}"
   s.public_header_files = "LeoBannerView/LeoBannerView.h"
