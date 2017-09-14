@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B6CE111F6A2AFA001C196F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6CE101F6A2AFA001C196F /* main.m */; };
+		04B6CE141F6A2AFA001C196F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6CE131F6A2AFA001C196F /* AppDelegate.m */; };
+		04B6CE171F6A2AFA001C196F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6CE161F6A2AFA001C196F /* ViewController.m */; };
+		04B6CE1A1F6A2AFA001C196F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B6CE181F6A2AFA001C196F /* Main.storyboard */; };
+		04B6CE1C1F6A2AFA001C196F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B6CE1B1F6A2AFA001C196F /* Assets.xcassets */; };
+		04B6CE1F1F6A2AFA001C196F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B6CE1D1F6A2AFA001C196F /* LaunchScreen.storyboard */; };
+		04B6CE291F6A2CF8001C196F /* LeoBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6CE281F6A2CF8001C196F /* LeoBannerView.m */; };
+		04EAB1341F6A57310039082D /* ic_placeholder_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EAB1331F6A57310039082D /* ic_placeholder_image@2x.png */; };
+		4D33EDE7C44495B229A6C389 /* libPods-LeoBannerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC6E8662F465A562285EBEB /* libPods-LeoBannerViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B6CE0C1F6A2AFA001C196F /* LeoBannerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoBannerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B6CE101F6A2AFA001C196F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B6CE121F6A2AFA001C196F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B6CE131F6A2AFA001C196F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B6CE151F6A2AFA001C196F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B6CE161F6A2AFA001C196F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B6CE191F6A2AFA001C196F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B6CE1B1F6A2AFA001C196F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B6CE1E1F6A2AFA001C196F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B6CE201F6A2AFA001C196F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B6CE271F6A2CF8001C196F /* LeoBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoBannerView.h; sourceTree = "<group>"; };
+		04B6CE281F6A2CF8001C196F /* LeoBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoBannerView.m; sourceTree = "<group>"; };
+		04EAB1331F6A57310039082D /* ic_placeholder_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_placeholder_image@2x.png"; sourceTree = "<group>"; };
+		1BC6E8662F465A562285EBEB /* libPods-LeoBannerViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeoBannerViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DE674D96D772E0B04A29D0 /* Pods-LeoBannerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoBannerViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeoBannerViewDemo/Pods-LeoBannerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7B7C7BA5AB1710916F98D4C3 /* Pods-LeoBannerViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoBannerViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeoBannerViewDemo/Pods-LeoBannerViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B6CE091F6A2AFA001C196F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D33EDE7C44495B229A6C389 /* libPods-LeoBannerViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B6CE031F6A2AFA001C196F = {
+			isa = PBXGroup;
+			children = (
+				04B6CE261F6A2CAF001C196F /* LeoBannerView */,
+				04B6CE0E1F6A2AFA001C196F /* LeoBannerViewDemo */,
+				04B6CE0D1F6A2AFA001C196F /* Products */,
+				779CC7CFE4378899513C92C3 /* Pods */,
+				371A28BFB993CAE0D843726C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04B6CE0D1F6A2AFA001C196F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B6CE0C1F6A2AFA001C196F /* LeoBannerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B6CE0E1F6A2AFA001C196F /* LeoBannerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04B6CE121F6A2AFA001C196F /* AppDelegate.h */,
+				04B6CE131F6A2AFA001C196F /* AppDelegate.m */,
+				04B6CE151F6A2AFA001C196F /* ViewController.h */,
+				04B6CE161F6A2AFA001C196F /* ViewController.m */,
+				04B6CE181F6A2AFA001C196F /* Main.storyboard */,
+				04B6CE1B1F6A2AFA001C196F /* Assets.xcassets */,
+				04B6CE1D1F6A2AFA001C196F /* LaunchScreen.storyboard */,
+				04B6CE201F6A2AFA001C196F /* Info.plist */,
+				04B6CE0F1F6A2AFA001C196F /* Supporting Files */,
+			);
+			path = LeoBannerViewDemo;
+			sourceTree = "<group>";
+		};
+		04B6CE0F1F6A2AFA001C196F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EAB1321F6A57310039082D /* Res */,
+				04B6CE101F6A2AFA001C196F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B6CE261F6A2CAF001C196F /* LeoBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				04B6CE271F6A2CF8001C196F /* LeoBannerView.h */,
+				04B6CE281F6A2CF8001C196F /* LeoBannerView.m */,
+			);
+			path = LeoBannerView;
+			sourceTree = "<group>";
+		};
+		04EAB1321F6A57310039082D /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				04EAB1331F6A57310039082D /* ic_placeholder_image@2x.png */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		371A28BFB993CAE0D843726C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC6E8662F465A562285EBEB /* libPods-LeoBannerViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		779CC7CFE4378899513C92C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B7C7BA5AB1710916F98D4C3 /* Pods-LeoBannerViewDemo.debug.xcconfig */,
+				49DE674D96D772E0B04A29D0 /* Pods-LeoBannerViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B6CE0B1F6A2AFA001C196F /* LeoBannerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B6CE231F6A2AFA001C196F /* Build configuration list for PBXNativeTarget "LeoBannerViewDemo" */;
+			buildPhases = (
+				EB992B1E8C18E42E164F0073 /* [CP] Check Pods Manifest.lock */,
+				04B6CE081F6A2AFA001C196F /* Sources */,
+				04B6CE091F6A2AFA001C196F /* Frameworks */,
+				04B6CE0A1F6A2AFA001C196F /* Resources */,
+				58A3AD44E3860B092C5FABC1 /* [CP] Embed Pods Frameworks */,
+				B6D326175546F38564E0FAEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeoBannerViewDemo;
+			productName = LeoBannerViewDemo;
+			productReference = 04B6CE0C1F6A2AFA001C196F /* LeoBannerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B6CE041F6A2AFA001C196F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					04B6CE0B1F6A2AFA001C196F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = R7VZ46CE8R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04B6CE071F6A2AFA001C196F /* Build configuration list for PBXProject "LeoBannerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B6CE031F6A2AFA001C196F;
+			productRefGroup = 04B6CE0D1F6A2AFA001C196F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B6CE0B1F6A2AFA001C196F /* LeoBannerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B6CE0A1F6A2AFA001C196F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAB1341F6A57310039082D /* ic_placeholder_image@2x.png in Resources */,
+				04B6CE1F1F6A2AFA001C196F /* LaunchScreen.storyboard in Resources */,
+				04B6CE1C1F6A2AFA001C196F /* Assets.xcassets in Resources */,
+				04B6CE1A1F6A2AFA001C196F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A3AD44E3860B092C5FABC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeoBannerViewDemo/Pods-LeoBannerViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D326175546F38564E0FAEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeoBannerViewDemo/Pods-LeoBannerViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB992B1E8C18E42E164F0073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B6CE081F6A2AFA001C196F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B6CE171F6A2AFA001C196F /* ViewController.m in Sources */,
+				04B6CE141F6A2AFA001C196F /* AppDelegate.m in Sources */,
+				04B6CE111F6A2AFA001C196F /* main.m in Sources */,
+				04B6CE291F6A2CF8001C196F /* LeoBannerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04B6CE181F6A2AFA001C196F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B6CE191F6A2AFA001C196F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B6CE1D1F6A2AFA001C196F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B6CE1E1F6A2AFA001C196F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B6CE211F6A2AFA001C196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B6CE221F6A2AFA001C196F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B6CE241F6A2AFA001C196F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7C7BA5AB1710916F98D4C3 /* Pods-LeoBannerViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7VZ46CE8R;
+				INFOPLIST_FILE = LeoBannerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myanmarPltform.LeoBannerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B6CE251F6A2AFA001C196F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DE674D96D772E0B04A29D0 /* Pods-LeoBannerViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7VZ46CE8R;
+				INFOPLIST_FILE = LeoBannerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myanmarPltform.LeoBannerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B6CE071F6A2AFA001C196F /* Build configuration list for PBXProject "LeoBannerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B6CE211F6A2AFA001C196F /* Debug */,
+				04B6CE221F6A2AFA001C196F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B6CE231F6A2AFA001C196F /* Build configuration list for PBXNativeTarget "LeoBannerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B6CE241F6A2AFA001C196F /* Debug */,
+				04B6CE251F6A2AFA001C196F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B6CE041F6A2AFA001C196F /* Project object */;
+}
